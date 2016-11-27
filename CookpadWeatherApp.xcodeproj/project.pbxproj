@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34846ECA1DEB039D00590DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34846EC91DEB039D00590DDA /* AppDelegate.swift */; };
+		34846ECC1DEB039D00590DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34846ECB1DEB039D00590DDA /* ViewController.swift */; };
+		34846ECF1DEB039D00590DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34846ECD1DEB039D00590DDA /* Main.storyboard */; };
+		34846ED11DEB039D00590DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34846ED01DEB039D00590DDA /* Assets.xcassets */; };
+		34846ED41DEB039D00590DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34846ED21DEB039D00590DDA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34846EC61DEB039D00590DDA /* CookpadWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookpadWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34846EC91DEB039D00590DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34846ECB1DEB039D00590DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34846ECE1DEB039D00590DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34846ED01DEB039D00590DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34846ED31DEB039D00590DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34846ED51DEB039D00590DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34846EC31DEB039D00590DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34846EBD1DEB039D00590DDA = {
+			isa = PBXGroup;
+			children = (
+				34846EC81DEB039D00590DDA /* CookpadWeatherApp */,
+				34846EC71DEB039D00590DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34846EC71DEB039D00590DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34846EC61DEB039D00590DDA /* CookpadWeatherApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34846EC81DEB039D00590DDA /* CookpadWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				34846EC91DEB039D00590DDA /* AppDelegate.swift */,
+				34846ECB1DEB039D00590DDA /* ViewController.swift */,
+				34846ECD1DEB039D00590DDA /* Main.storyboard */,
+				34846ED01DEB039D00590DDA /* Assets.xcassets */,
+				34846ED21DEB039D00590DDA /* LaunchScreen.storyboard */,
+				34846ED51DEB039D00590DDA /* Info.plist */,
+			);
+			path = CookpadWeatherApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34846EC51DEB039D00590DDA /* CookpadWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34846ED81DEB039D00590DDA /* Build configuration list for PBXNativeTarget "CookpadWeatherApp" */;
+			buildPhases = (
+				34846EC21DEB039D00590DDA /* Sources */,
+				34846EC31DEB039D00590DDA /* Frameworks */,
+				34846EC41DEB039D00590DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookpadWeatherApp;
+			productName = CookpadWeatherApp;
+			productReference = 34846EC61DEB039D00590DDA /* CookpadWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34846EBE1DEB039D00590DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.pushpak;
+				TargetAttributes = {
+					34846EC51DEB039D00590DDA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NF544KV6WE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34846EC11DEB039D00590DDA /* Build configuration list for PBXProject "CookpadWeatherApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34846EBD1DEB039D00590DDA;
+			productRefGroup = 34846EC71DEB039D00590DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34846EC51DEB039D00590DDA /* CookpadWeatherApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34846EC41DEB039D00590DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34846ED41DEB039D00590DDA /* LaunchScreen.storyboard in Resources */,
+				34846ED11DEB039D00590DDA /* Assets.xcassets in Resources */,
+				34846ECF1DEB039D00590DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34846EC21DEB039D00590DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34846ECC1DEB039D00590DDA /* ViewController.swift in Sources */,
+				34846ECA1DEB039D00590DDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34846ECD1DEB039D00590DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34846ECE1DEB039D00590DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34846ED21DEB039D00590DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34846ED31DEB039D00590DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34846ED61DEB039D00590DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34846ED71DEB039D00590DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34846ED91DEB039D00590DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NF544KV6WE;
+				INFOPLIST_FILE = CookpadWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushpak.cookpadtest.CookpadWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34846EDA1DEB039D00590DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NF544KV6WE;
+				INFOPLIST_FILE = CookpadWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushpak.cookpadtest.CookpadWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34846EC11DEB039D00590DDA /* Build configuration list for PBXProject "CookpadWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34846ED61DEB039D00590DDA /* Debug */,
+				34846ED71DEB039D00590DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34846ED81DEB039D00590DDA /* Build configuration list for PBXNativeTarget "CookpadWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34846ED91DEB039D00590DDA /* Debug */,
+				34846EDA1DEB039D00590DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34846EBE1DEB039D00590DDA /* Project object */;
+}
