@@ -1,0 +1,6 @@
+framework module Pods_CookpadWeatherApp {
+  umbrella header "Pods-CookpadWeatherApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

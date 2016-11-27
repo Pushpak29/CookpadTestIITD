@@ -12,9 +12,12 @@
 		34846ECF1DEB039D00590DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34846ECD1DEB039D00590DDA /* Main.storyboard */; };
 		34846ED11DEB039D00590DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34846ED01DEB039D00590DDA /* Assets.xcassets */; };
 		34846ED41DEB039D00590DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34846ED21DEB039D00590DDA /* LaunchScreen.storyboard */; };
+		34846EDC1DEB135700590DDA /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34846EDB1DEB135700590DDA /* WeatherTableViewCell.swift */; };
+		64689A68485BBAD859CAA1F5 /* Pods_CookpadWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF55EA9204B6EF111B33F57 /* Pods_CookpadWeatherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E8FB411C1E64FA52856871D /* Pods-CookpadWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookpadWeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CookpadWeatherApp/Pods-CookpadWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		34846EC61DEB039D00590DDA /* CookpadWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookpadWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34846EC91DEB039D00590DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34846ECB1DEB039D00590DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		34846ED01DEB039D00590DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34846ED31DEB039D00590DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34846ED51DEB039D00590DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34846EDB1DEB135700590DDA /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		A062170E605ECA6438E9AFC5 /* Pods-CookpadWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookpadWeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CookpadWeatherApp/Pods-CookpadWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF55EA9204B6EF111B33F57 /* Pods_CookpadWeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookpadWeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64689A68485BBAD859CAA1F5 /* Pods_CookpadWeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101DAF04B5EA379E17EC0848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A062170E605ECA6438E9AFC5 /* Pods-CookpadWeatherApp.debug.xcconfig */,
+				1E8FB411C1E64FA52856871D /* Pods-CookpadWeatherApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34846EBD1DEB039D00590DDA = {
 			isa = PBXGroup;
 			children = (
 				34846EC81DEB039D00590DDA /* CookpadWeatherApp */,
 				34846EC71DEB039D00590DDA /* Products */,
+				101DAF04B5EA379E17EC0848 /* Pods */,
+				7B6E5755B5164ECBF42DF9B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				34846ED01DEB039D00590DDA /* Assets.xcassets */,
 				34846ED21DEB039D00590DDA /* LaunchScreen.storyboard */,
 				34846ED51DEB039D00590DDA /* Info.plist */,
+				34846EDB1DEB135700590DDA /* WeatherTableViewCell.swift */,
 			);
 			path = CookpadWeatherApp;
+			sourceTree = "<group>";
+		};
+		7B6E5755B5164ECBF42DF9B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEF55EA9204B6EF111B33F57 /* Pods_CookpadWeatherApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34846ED81DEB039D00590DDA /* Build configuration list for PBXNativeTarget "CookpadWeatherApp" */;
 			buildPhases = (
+				C237F3013ADADAE11CC64CED /* [CP] Check Pods Manifest.lock */,
 				34846EC21DEB039D00590DDA /* Sources */,
 				34846EC31DEB039D00590DDA /* Frameworks */,
 				34846EC41DEB039D00590DDA /* Resources */,
+				2E1F57CD3FA8FFD463C568FB /* [CP] Embed Pods Frameworks */,
+				B15AB4BCE7BF69B263B517EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +127,7 @@
 					34846EC51DEB039D00590DDA = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NF544KV6WE;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E1F57CD3FA8FFD463C568FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookpadWeatherApp/Pods-CookpadWeatherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15AB4BCE7BF69B263B517EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CookpadWeatherApp/Pods-CookpadWeatherApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C237F3013ADADAE11CC64CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34846EC21DEB039D00590DDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34846EDC1DEB135700590DDA /* WeatherTableViewCell.swift in Sources */,
 				34846ECC1DEB039D00590DDA /* ViewController.swift in Sources */,
 				34846ECA1DEB039D00590DDA /* AppDelegate.swift in Sources */,
 			);
@@ -182,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +312,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,10 +339,13 @@
 		};
 		34846ED91DEB039D00590DDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A062170E605ECA6438E9AFC5 /* Pods-CookpadWeatherApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NF544KV6WE;
 				INFOPLIST_FILE = CookpadWeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pushpak.cookpadtest.CookpadWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +355,13 @@
 		};
 		34846EDA1DEB039D00590DDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8FB411C1E64FA52856871D /* Pods-CookpadWeatherApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NF544KV6WE;
 				INFOPLIST_FILE = CookpadWeatherApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pushpak.cookpadtest.CookpadWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +388,7 @@
 				34846EDA1DEB039D00590DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
